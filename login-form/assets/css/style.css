@@ -1,0 +1,92 @@
+/* Global Style Reset and Font Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1ca7ec;
+}
+
+/* Main Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 225px auto auto;
+    padding: 10px 20px 20px 10px;
+    width: 450px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+    background-color: white;
+    /* Created by Mrsaro1000 | GitHub: github.com/Mrsaro1000 */
+}
+
+/* Profile Image Styling */
+.container #img {
+    box-shadow: 0px 0px 1px 0px black;
+    border: none;
+    border-radius: 50%;
+    user-select: none;
+}
+
+/* Input Fields Styling */
+input {
+    width: 300px;
+    margin: 10px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: rgba(143, 139, 139, 0.13);
+    padding: 13px;
+    color: black;
+}
+
+input:focus {
+    border-bottom: 0.5px solid rgb(7, 214, 7);
+    border-right: 0.5px solid rgb(7, 214, 7);
+    box-shadow: 0px 0px 4px 0px green;
+}
+
+#passwordInput {
+    letter-spacing: 4px;
+}
+
+#passwordInput::placeholder {
+    letter-spacing: 0px !important; 
+}
+
+/* Submit Button Styling */
+#submitBtn {
+    all: unset; /* Remove Defult Button Style */
+    margin: 20px auto;
+    margin-top: 10px !important;
+    background-color: rgb(15, 219, 15);
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    user-select: none;
+}
+
+#submitBtn:hover {
+    box-shadow: 0px 0px 10px 0px rgb(15, 219, 15);
+}
+
+#submitBtn:active {
+    color: rgb(15, 219, 15);
+    background-color: white;
+}
+
+/* Forget Password Paragraph Styling */
+#forgetPasswordParagraph {
+    user-select: none;
+}
+
+#forgetPasswordParagraph:hover {
+    color: rgba(6, 57, 134, 0.671);
+}
+
+/* Created by Mrsaro1000 | GitHub: github.com/Mrsaro1000 */
